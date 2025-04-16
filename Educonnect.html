@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educonnect</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: #CFEAB8;
+        }
+
+        header,
+        footer {
+            background-color: #518028;
+            color: aliceblue;
+            text-align: center;
+            padding: 2px;
+            ;
+        }
+
+        .Navitem {
+            display: inline;
+            padding: 30px;
+            font-size: 125%;
+            font-weight: bold;
+        }
+
+        .Navitem a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .Registration {
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .Mentor {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #395c60;
+            padding: 8px;
+        }
+
+        .Contact {
+            text-align: center;
+        }
+
+        h2 {
+            font-size: xx-large;
+        }
+
+        div {
+            display:inline-block;
+            width: 200px;
+            height: 400px;
+            border: 3px solid #000;
+            margin: 15px;
+            vertical-align: top;
+            border-radius: 25px;
+        }
+
+        .Course {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Edu Connect</h1>
+        <p style="font-size: larger;"> An Innovative Idea to Solve the Problem of Students.Who struggeling to
+            understanding the all <em>Programming Languages</em> </p>
+        <nav style="background-color: #83cf40; padding: 3px;">
+            <ul>
+                <li class="Navitem"><a href="#Registration-link">Registration</a></li>
+                <li class="Navitem"><a href="#Coursedetails-link">Course Details</a></li>
+                <li class="Navitem"><a href="#Viewourmentors-link">View Our Mentors</a></li>
+                <li class="Navitem"><a href="#Contactus-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <img src="Enhanced.png" alt="" width="100%"><br><br><br><br>
+    <section id="Registration-link" class="Registration">
+        <h2>Students Registration</h2>
+        <p style="font-size: larger;">Fill this Form to Register Yourself</p>
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" placeholder="Enter Your Name" id="Name"><br><br>
+            <label for="Mobno">Mobile No:</label>
+            <input type="text" placeholder="Enter Your Number" id="Mobno"><br><br>
+            <label for="Email">E-Mail:</label>
+            <input type="email" placeholder="Enter Your Email" id="Email"><br><br>
+            <label for="Password">Password:</label>
+            <input type="password" placeholder="Enter Password" id="Password"><br><br>
+            <label for="Dob">DOB:</label>
+            <input type="date" id="Dob"><br><br>
+            <label for="Collegename">College:</label>
+            <input type="text" placeholder="Enter Your College Name" id="Collegename"><br><br>
+            <label for="Semester">Current Semester</label>
+            <select id="Semester"><br><br>
+                <option>Semester 1</option>
+                <option>Semester 2</option>
+                <option>Semester 3</option>
+                <option>Semester 4</option>
+                <option>Semester 5</option>
+                <option>Semester 6</option>
+                <option>Semester 7</option>
+                <option>Semester 8</option>
+            </select><br><br>
+            <label for="Language">Required Language:</label>
+            <input type="radio" value="Python" id="Language" name="progrraming">
+            <label for="Python">Python</label>
+            <input type="radio" value="C" id="Language" name="progrraming">
+            <label for="C">C</label>
+            <input type="radio" value="C++" id="Language" name="progrraming">
+            <label for="C++">C++</label>
+            <input type="radio" value="Java" id="Language" name="progrraming">
+            <label for="Java">Java</label><br><br>
+            <input type="radio" value="Javascript" id="Language" name="progrraming">
+            <label for="Javascript">Java Script</label>
+            <input type="radio" value="Kotlin" id="Language" name="progrraming">
+            <label for="Kotlin">Kotlin</label>
+            <input type="radio" value="HTML" id="Language" name="progrraming">
+            <label for="HTML">HTML</label>
+            <input type="radio" value="Nodejs" id="Language" name="progrraming">
+            <label for="Nodejs">Node JS</label><br><br>
+            <input type="checkbox" id="term">
+            <label for="term">I agree to Educonnect's user agreement terms and conditions</label><br><br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section><br><br><br><br><br><br><br>
+    <section id="Coursedetails-link" class="Course">
+        <h2>Course Details</h2>
+        <div>
+            <h3><u>Python</u></h3><img src="image_copy_3-removebg-preview.png"
+                style="width:40%;height:80px; object-fit:cover;">
+            <p style="text-align:left;">Python is a versatile programming language used for
+                <strong>WebDevelopment</strong>,<strong>Data analysis</strong>,and<strong>Ai</strong>.Known for
+                simplicity and ease of use,Python is ideal for beginners and experts with libraries
+                like<strong>NumPy,Pandas,Django</strong></p>
+        </div>
+        <div>
+            <h3><u>HTML</u></h3><img src="image copy 4.png" style="width:40%;height:80px; object-fit:cover;">
+            <p style="text-align:left;">HTML <strong>(Hyper Text Markup Language)</strong> is the Standard Markup
+                Language used to create WebPages.It provides the structure and content for <strong>Websites, Headings
+                    ,Paragraphs ,Images</strong> and <strong>Links.</strong></p>
+        </div>
+        <div>
+            <h3><u>NodeJS</u></h3><img src="image copy 5.png" style="width:40%;height:80px; object-fit:cover;">
+            <p style="text-align: left;">Nodejs is a Java Script runtime built on <strong>Chrome's V8 Engine</strong>.
+                It allows developers to create scalable and high-performance <strong>Server-Side
+                    Applications</strong>,enabling real-time data exchange and Dynamic Content Generation.</p>
+        </div>
+        <div>
+            <h3><u>Kotlin</u></h3><img src="image copy 6.png" style="width:40%;height:80px; object-fit:cover;">
+            <p style="text-align: left;">Kotlin is a modern statically typed programming language that runs on the
+                <strong>Java Virtual Machine (JVM)</strong>. It's designed to be concise, safe, and interoperable with
+                java, making it a populer choice for <strong>Android App Development</strong> and <strong>Backend
+                    Programming</strong></p>
+        </div>
+        <div>
+            <h3><u>Java</u></h3><img src="image copy 3.png" style="width:40%;height:80px; object-fit:cover;">
+            <p style="text-align: left;">Java is an <strong>Object-Oriented Programming Language</strong> that runs on
+                the <strong>Java Vertual Machine (JVM)</strong>.Known for its platform independence, strong security
+                features, and vast ecosystem of libraries and tools, java is widely used for developing
+                <strong>Large-Scale Applications, Android Apps,</strong> and <strong>Web Applications.</strong></p>
+        </div>
+    </section><br><br><br><br><br><br>
+    <section id="Viewourmentors-link" class="Mentor">
+        <h2>View Our Mentors</h2>
+        <p style="font-size: larger;"><u>Mentor's Information</u></p>
+        <table>
+            <tr>
+                <th>Mentor's Name</th>
+                <th>Specialized</th>
+                <th>College</th>
+            </tr>
+            <tr>
+                <td>Tuhin Parikhsha</td>
+                <td>IOT</td>
+                <td>Sister NIvedita University</td>
+            </tr>
+            <tr>
+                <td>Swarnadip Mondal</td>
+                <td>Cyber Security</td>
+                <td>Sister Nivedita University</td>
+            </tr>
+            <tr>
+                <td>Saptak Chaki</td>
+                <td>Data Analysis</td>
+                <td>Sister Nivedita University</td>
+            </tr>
+        </table>
+    </section><br><br><br><br><br><br>
+    <section id="Contactus-link" class="Contact">
+        <h2>Contact Us</h2>
+        <p style="font-size: larger;">You can contact us at swarnomails@gmail.com or call- 1800 2456 </p>
+        <p style="font-size: larger;">Visit us between 9am - 5pm</p><br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.010105097871!2d88.47356327507795!3d22.57872537948745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027532681696e9%3A0xb8684bcdb918e91!2sSister%20Nivedita%20University%20(SNU)!5e0!3m2!1sen!2sin!4v1735900710313!5m2!1sen!2sin"
+            width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section><br><br><br>
+    </main>
+    <footer>
+        <p style="font-size:larger;">&copy; 2025 Company Edu Connect</p>
+    </footer>
+</body>
+
+</html>
